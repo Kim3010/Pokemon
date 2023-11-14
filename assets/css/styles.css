@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    height: 100vh;
+}
+/*Header*/
+.content
+{
+   padding:1rem;
+}
+.content > h1{
+    text-align: center;
+    color: #0026ff;
+}
+/*Lista*/
+ol.pokemons
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol.pokemons li{
+    margin: .5rem;
+    padding:2.5rem 1rem;
+    color: #fff;
+    border-radius: 1rem;
+    height: 100px;
+    max-width:150px ;
+    border: 1px solid #000;
+}
+/*Cores de fundo da lista*/
+li.agua , li.fire
+{
+    display: flex;
+    justify-content: center;
+}
+ol.pokemons li.agua
+{
+    background-color: #48d0b0;
+}
+ol.pokemons li.fire
+{
+    background-color: #fb6c6c;
+}
+
